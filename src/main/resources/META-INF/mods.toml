@@ -4,11 +4,11 @@ issueTrackerURL="https://github.com/sokcuri/naraechat/issues"
 [[mods]]
 modId="naraechat"
 version="${file.jarVersion}"
-displayName="Narae Chat"
+displayName="MCKChat"
 updateJSONURL="https://raw.githubusercontent.com/sokcuri/naraechat/master/data/update.json"
 displayURL="https://github.com/sokcuri/naraechat"
-authors="sokcuri"
-description="나래챗은 마인크래프트 한글 입력을 도와줍니다. by 소쿠릿"
+authors="sokcuri,norhu1130"
+description="MCK챗은 마인크래프트 한글 입력을 도와줍니다. < 해당 프로젝트는 sokcuri/NaraeChat을 포크하였습니다. >"
 
 [[dependencies.naraechat]] #
     modId="forge"
@@ -19,6 +19,6 @@ description="나래챗은 마인크래프트 한글 입력을 도와줍니다. b
 [[dependencies.naraechat]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.1]"
+    versionRange="[1.16.4]"
     ordering="NONE"
     side="BOTH"
